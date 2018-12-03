@@ -11,5 +11,13 @@ namespace Aquarius.SayHello.Test
 
             Assert.Equal("Hello", result);
         }
+
+        [Fact]
+        public void Talk_Should_Be_Hi()
+        {
+            var result = Talk.Hi();
+
+            Assert.Equal("Hi", result);
+        }
     }
 }

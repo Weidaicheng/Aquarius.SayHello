@@ -6,5 +6,10 @@
         {
             return "Hello";
         }
+
+        public static string Hi()
+        {
+            return "Hi";
+        }
     }
 }
